@@ -119,7 +119,7 @@ class AuthController extends Controller
                 'message' => 'El usuario ya fue registrado',
                 'errors' => $errors,
                 'status' => 'error'
-            ],403);
+            ], 403);
         }
 
         try{
@@ -127,6 +127,11 @@ class AuthController extends Controller
             $user->name = $request->name;
             $user->email =  $request->email;
             $user->matricula =  $request->matricula;
+            if($request->has('matricula')){
+                $user->role = 'interno';
+            } else {
+                $user->role = 'externo';
+            }
             $user->password = bcrypt($request->password);
             $user->save();
 
