@@ -66,7 +66,7 @@
 
 <body>
     <table cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="100%">
-        <thead class="thead-thead" style="background-size: cover; background-position: 50% 40%;
+        <thead class="thead-thead" style="background-size: cover; background-position: 100% 100%;
         background-image: url('http://167.172.149.82/images/bg.jpg');">
             <tr>
                 <th style="text-align: center; padding: 15vh 0;">
