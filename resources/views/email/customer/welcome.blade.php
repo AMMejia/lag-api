@@ -67,7 +67,7 @@
 <body>
     <table cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="100%">
         <thead class="thead-thead" style="background-size: cover; background-position: 0% 40%;
-        background-image: url('https://app.slpfinanzas.gob.mx/images/finanzas/imagen-correo-confirmacion.jpg');">
+        background-image: url('http://167.172.149.82/images/black_full_logo.png');">
             <tr>
                 <th style="text-align: center; padding: 15vh 0;">
                 </th>
@@ -80,7 +80,7 @@
                         <thead>
                             <tr>
                                 <th style="text-align: center;">
-                                    <img src="https://app.slpfinanzas.gob.mx/images/finanzas/logo_finanzas.png" width="250">
+                                    <img src="http://167.172.149.82/images/black_logo.png" width="250">
                                 </th>
                             </tr>
                             <tr>
@@ -92,7 +92,7 @@
                             </tr>
                             <tr>
                                 <th style="text-align: center; font-size: 20px;  font-weight: normal;">
-                                    <p> Gracias por suscribirte a Finanzas App. De ahora en adelante eres parte de la
+                                    <p> Gracias por suscribirte a LAG. De ahora en adelante eres parte de la
                                         experiencia.
                                     </p>
                                 </th>

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Bienvenido a Finanzas App</title>
+    <title>Bienvenido a LAG</title>
     <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
 </head>
 <style>
@@ -67,7 +67,7 @@
 <body>
     <table cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" width="100%">
         <thead class="thead-thead" style="background-size: cover; background-position: 0% 40%;
-        background-image: url('https://app.slpfinanzas.gob.mx/images/finanzas/imagen-correo-confirmacion.jpg');">
+        background-image: url('http://167.172.149.82/images/black_full_logo.png');">
             <tr>
                 <th style="text-align: center; padding: 15vh 0;">
                 </th>
@@ -80,7 +80,7 @@
                         <thead>
                             <tr>
                                 <th style="text-align: center;">
-                                    <img src="https://app.slpfinanzas.gob.mx/images/finanzas/logo_finanzas.png" width="250">
+                                    <img src="http://167.172.149.82/images/black_logo.png" width="250">
                                 </th>
                             </tr>
                             <tr>
@@ -122,7 +122,7 @@
         <tfoot>
             <tr>
                 <td style="color: #37474F; font-size: .8rem; font-weight: normal; padding: .5rem 2rem; text-align: center;">
-                    Transom-Group© 2020. All rights reserved.
+                    LAG© 2020. All rights reserved.
                 </td>
             </tr>
         </tfoot>
