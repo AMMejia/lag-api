@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Bienvenido a Finanzas App</title>
+    <title>Bienvenido a LAG</title>
     <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
 </head>
 <style>
@@ -138,7 +138,7 @@
             </tr>
             <tr>
                 <td style="color: #37474F; font-size: .8rem; font-weight: normal; padding: .5rem 2rem; text-align: center;">
-                    Transom-Group© 2020. All rights reserved.
+                    LAG© 2020. All rights reserved.
                 </td>
             </tr>
         </tfoot>

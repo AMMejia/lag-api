@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es_MX">
     <head>
-        <title>Finanzas</title>
+        <title>LAG</title>
         <!-- Meta tag Keywords -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -22,7 +22,7 @@
                         <a class="brand-logo" href="index.html"></a>
                     </div>
                     <div class="w3l-error-grid">
-                        <img id="imagen" src="/register/images/logo-finanzas.png"/>
+                        <img id="imagen" src="/images/black_logo.png"/>
                         <br>
                         <br>
                         <br>
@@ -31,8 +31,8 @@
                     </div>
 
                     <div class="copy-right text-center">
-                        <p>© 2020 Finanzas. Revisa nuestro aviso de privacidad. | 
-                            <a href="https://slp.gob.mx/FINANZAS/Paginas/Aviso-de-privacidad.aspx" target="_blank">Aviso de privacidad.</a>
+                        <p>© 2021 LAG. Revisa nuestro aviso de privacidad. |
+                            <a href="#" target="_blank">Aviso de privacidad.</a>
                         </p>
                     </div>
                 </div>
