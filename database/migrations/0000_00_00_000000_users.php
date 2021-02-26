@@ -21,6 +21,10 @@ class Users extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('role');
+            $table->boolean('payment')->default(false);
+            $table->double('cash')->nullable();
+            $table->double('due');
+            $table->string('facebook')->nullable();
             $table->dateTime('resend_email')->nullable();
             $table->rememberToken();
             $table->timestamps();

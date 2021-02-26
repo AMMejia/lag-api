@@ -14,6 +14,14 @@ class User extends Authenticatable implements MustVerifyEmail
     use HasApiTokens, HasFactory, Notifiable;
 
     /**
+     * Relationship Has Many Images
+     */
+    public function images()
+    {
+        return $this->hasMany('App\Models\Image');
+    }
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array

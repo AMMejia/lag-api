@@ -35,7 +35,7 @@ Route::group([
         return response()->json(['error' => 'Unauthenticated'], 401);
     })->name('loginfailed');
 
-     Route::group([
+    Route::group([
         'middleware' => 'auth:api',
       ], function() {
 
@@ -45,4 +45,18 @@ Route::group([
 
           Route::post('refresh', 'Auth\AuthController@refreshToken');
    });
+
+});
+
+Route::group([
+    'middleware' => 'auth:api',
+  ], function() {
+
+      Route::get('users', 'User\UserController@index');
+
+      Route::get('user/show/images/{user}', 'Payments\PaymentControlle@checkImages');
+
+      Route::post('user/cash/{user}', 'Payments\PaymentController@updateCash');
+
+      Route::post('user/images', 'Payments\PaymentController@updateImages');
 });

@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Laravel\Passport\Client as OClient;
@@ -129,9 +129,12 @@ class AuthController extends Controller
             $user->matricula =  $request->matricula;
             if($request->has('matricula')){
                 $user->role = 'interno';
+                $user->due = 150;
             } else {
                 $user->role = 'externo';
+                $user->due = 200;
             }
+            $user->facebook = $request->facebook;
             $user->password = bcrypt($request->password);
             $user->save();
 
