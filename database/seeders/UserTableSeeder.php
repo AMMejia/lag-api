@@ -21,6 +21,7 @@ class UserTableSeeder extends Seeder
             'password' => Hash::make('adminadmin'),
             'name' => 'Super Usuario Lag',
             'role' => 'owner',
+            'due' => 0,
         ]);
     }
 }
